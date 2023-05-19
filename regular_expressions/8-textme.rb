@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/(\+1)\d{10}|(\+1)\d{10}|-\d:\d:-\d:\d:-\d/).join
+puts ARGV[0].scan(/\d{11}|\d{11}|(\W-\d\W\d)(\W-\d){3}/).join
